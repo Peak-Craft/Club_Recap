@@ -1,0 +1,51 @@
+### CSS Styling Tasks
+
+1. **Fix and Externalize Styles:**
+   - Move the inline `background-color` style from `<body>` to an external CSS file and apply a better color.
+   - Link the external CSS file to the HTML.
+
+2. **Enhance Semantic Elements:**
+   - Apply a background color and padding to the `<header>` section.
+   - Style the `<article>` section to visually separate it from the rest of the content.
+
+3. **Fix the Image Display:**
+   - Add a border to the working image.
+   - Create a CSS rule to visually indicate broken images (e.g., add a red border or use pseudo-classes to style `img[alt="Broken Link"]`).
+
+4. **Use Specificity to Style Elements:**
+   - Add a CSS rule for `#welcome-section` to change its font size and add a border.
+   - Create a more specific rule for `.important` links inside the `<aside>` and style them differently (e.g., bold font and custom color).
+
+5. **Pseudo-Classes:**
+   - Add a hover effect to links inside the `<nav>` and `<aside>` sections that changes their text color.
+   - Style form input fields with the `:focus` pseudo-class to add a border or background color.
+
+6. **Improve the Layout:**
+   - Use Flexbox or Grid to align the navigation menu horizontally.
+   - Add spacing between the `<main>` and `<footer>` sections for better visual separation.
+
+7. **Style Lists and Links:**
+   - Add a CSS rule to style `<ul>` elements inside the `<nav>` and `<aside>` differently.
+   - Use a pseudo-class to add an underline to all `<a>` elements only when they are hovered.
+
+8. **Responsive Design:**
+   - Make the `<img>` tags responsive so they scale properly on smaller screens.
+   - Ensure the `<header>` and `<footer>` sections have consistent padding on all screen sizes.
+
+9. **Add a Button Animation:**
+   - Create a smooth hover effect for the `Submit` button using `transition`.
+   - Change the background color and scale the button slightly on hover.
+
+10. **Bonus Tasks:**
+    - Add a keyframes animation to make the `<h1>` text fade in and grow slightly on page load.
+    - Style broken images (`img[src="broken-link.jpg"]`) to display a fallback message or apply a visual effect.
+
+### Advanced CSS Specificity Challenge:
+- Create a CSS rule that targets `<ul>` elements only inside `<aside>` and gives them a unique style (e.g., background and font color).
+- Add a rule to make links with the class `.important` in `<aside>` have the highest priority styling (even overriding inline styles if added).
+
+### Debugging Image Links:
+- Fix the broken image link in the HTML file and ensure the corrected image loads properly.
+- Add a hover effect to images that slightly zooms them in for a subtle interaction.
+
+
