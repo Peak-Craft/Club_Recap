@@ -31,3 +31,6 @@ Q What do I need to know? Basic HTML CSS.
 MIT License  
 
 Please feel free to contact us via email if you have any issues
+
+### Our End Goal
+<img src="./endgoal.png">
