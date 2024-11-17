@@ -1,63 +1,65 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>My Webpage</title>
-    <style>
-    body background-color: lightgrey;
-    </style>
-</head>
-<body>
-    <header>
-        <div><h1>Welcome to MyPage</h1></div>
-        <div>
-        <ul>
-            <li><a href=#home>Home</a>
-            <li><a href=#about>About</a>
-            <li><a>Contact</a></li>
-        </ul>
-        </div>
+  </head>
+  <body style="background-color: lightgray;">
+    <header style="background-color: #4caf50; text-align: center; height: 200px; color: white;">
+      <div><h1>Welcome to MyPage</h1></div>
+      <div>
+          <a href="#home" style="color: white; margin: 10px;">Home</a>
+          <a href="#about" style="color: white; margin: 10px;">About</a>
+          <a href="#contact" style="color: white; margin: 10px;">Contact</a>
+      </div>
     </header>
 
     <main>
-        <section>
-            <h2 id="welcome-section">Welcome</h2>
-            <p>This is my first website, and I’m excited to share it with you!</p>
-        </section>
+      <section style="border: #4caf50 3px solid; text-align: center; margin: 15px;" id="home">
+        <h2>Welcome</h2>
+        <p>This is my first website, and I'm excited to share it with you!</p>
+      </section>
 
-        <article>
-            <h3>Gallery</h3>
-            <img src="https://via.assets.so/game.png?id=12" height="200" alt="Placeholder Image">
-            <img src:"https://via.assets.so/game.png?id=14" height="200" alt="Broken Link">
-        </article>
+      <article style="background-color: white;margin: auto; padding: 10px;">
+        <h3>Gallery</h3>
+        <img
+          src="https://via.assets.so/game.png?id=12"
+          height="400"
+          alt="Placeholder Image"
+        />
+        <img
+          src="https://via.assets.so/game.png?id=14"
+          height="400"
+          alt="Place Holder Image 2"
+        />
+      </article>
 
-        <section>
-            <h3>My Interests</h3>
-            <p class="interests">I like <b>coding</b> and <b>designing</b>.</p>
-        </section>
-        
-        <aside>
-            <h4>Quick Links</h4>
-            <ul>
-                <li><a href="#home" class="important">Visit Home</a></li>
-                <li><a href="#contact">Contact Me</a></li>
-            </ul>
-        </aside>
+      <section id="about">
+        <h3>My Interests</h3>
+        <p class="interests">I like <b>coding</b> and <b>designing</b>.</p>
+      </section>
 
-        <div id="contact">
-            <h2>Contact Me</h2>
-            <form>
-                Name:<br>
-                <input type=text name=name><br>
-                Email:<br>
-                <input name="email" required><br>
-                <button>Submit</button>
-            </form>
-        </div>
+      <aside>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home" class="important">Visit Home</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </aside>
+
+      <div id="contact">
+        <h2>Contact Me</h2>
+        <form style="background-color: white;">
+          Name:<br/>
+          <input type="text" name="name" style=" border: black 2px solid; width: 300px;"/><br />
+          Email:<br />
+          <input name="email" required /><br/>
+          <button style="background-color: #4caf50; color: white;">Submit</button>
+        </form>
+      </div>
     </main>
 
-    <footer>
-        <p>Copyright 2024</p>
+    <footer style="text-align: center; color: white; background-color: #4caf50; height: 60px;">
+      <p>&#169 Copyright 2024 My Webpage</p>
     </footer>
-</body>
+  </body>
 </html>
-
