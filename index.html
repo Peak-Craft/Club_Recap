@@ -1,9 +1,9 @@
-<!DOCTYPE>
+<!DOCTYPE html> /*error 2*/
 <html lang="en">
 <head>
     <title>My Webpage</title>
-    <style>
-    body background-color: lightgrey;
+    <style>/*error 1*/
+   body {background-color: lightgrey;}
     </style>
 </head>
 <body>
@@ -11,9 +11,9 @@
         <div><h1>Welcome to MyPage</h1></div>
         <div>
         <ul>
-            <li><a href=#home>Home</a>
-            <li><a href=#about>About</a>
-            <li><a>Contact</a></li>
+            <li><a href="#home">Home</a><li> /*error 4 */ /*error 8*/
+            <li><a href="#about">About</a><li>/*error 5*/  /* error 9*/
+            <li><a href="#contact">Contact</a></li>/*error 6*/
         </ul>
         </div>
     </header>
@@ -26,8 +26,8 @@
 
         <article>
             <h3>Gallery</h3>
-            <img src="https://via.assets.so/game.png?id=12" height="200" alt="Placeholder Image">
-            <img src:"https://via.assets.so/game.png?id=14" height="200" alt="Broken Link">
+            <img src="https://via.assets.so/game.png?id=12" height="200" alt="Placeholder Image">gi
+            <img src="https://via.assets.so/game.png?id=14" height="200" alt="Broken Link">/*error 3*/
         </article>
 
         <section>
@@ -46,11 +46,11 @@
         <div id="contact">
             <h2>Contact Me</h2>
             <form>
-                Name:<br>
+               <label>Name:<br><lebl>/*errror 10*/
                 <input type=text name=name><br>
-                Email:<br>
+              <label>  Email:<br></lebl>/*error 11*/
                 <input name="email" required><br>
-                <button>Submit</button>
+                <button type="submit">Submit</button>/*error 7*/
             </form>
         </div>
     </main>
