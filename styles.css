@@ -54,3 +54,13 @@ article {
   display: flex;
   justify-content: center;
 }
+
+.myInterest__header {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.interests {
+  display: block;
+  background: white;
+}
