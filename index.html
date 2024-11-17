@@ -1,9 +1,11 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>My Webpage</title>
     <style>
-    body background-color: lightgrey;
+    body{
+         background-color: lightgrey;
+    }
     </style>
 </head>
 <body>
@@ -11,9 +13,12 @@
         <div><h1>Welcome to MyPage</h1></div>
         <div>
         <ul>
-            <li><a href=#home>Home</a>
-            <li><a href=#about>About</a>
-            <li><a>Contact</a></li>
+            <li><a href="#home">Home</a></li> 
+                
+            <li><a href="#about">About</a></li>
+              
+            <li><a href="#contact">Contact</a></li>
+               
         </ul>
         </div>
     </header>
@@ -27,7 +32,8 @@
         <article>
             <h3>Gallery</h3>
             <img src="https://via.assets.so/game.png?id=12" height="200" alt="Placeholder Image">
-            <img src:"https://via.assets.so/game.png?id=14" height="200" alt="Broken Link">
+            
+            <img src="https://via.assets.so/game.png?id=14" height="200" alt="Broken Link">
         </article>
 
         <section>
@@ -46,11 +52,12 @@
         <div id="contact">
             <h2>Contact Me</h2>
             <form>
-                Name:<br>
-                <input type=text name=name><br>
-                Email:<br>
+                <lable>Name:</label><br>
+                <input type="text" name="name"><br>
+                <label>Email:</label><br> 
                 <input name="email" required><br>
-                <button>Submit</button>
+                <button type="submit">Submit</button>
+                
             </form>
         </div>
     </main>
