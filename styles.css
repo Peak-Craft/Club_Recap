@@ -64,3 +64,21 @@ article {
   display: block;
   background: white;
 }
+
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: #4caf50;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  color: white;
+}
+.submit__btn {
+  padding: 5px;
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: 0;
+  font-weight: bold;
+}
